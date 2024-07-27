@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+   text-align: center;
+    margin: auto;
+    background-color: #fafafa;
+}
+.menu{
+    text-align: center;
+    background-color: #eee;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+p{
+    padding:20px 0px;
+}
+
+.banner{
+    width: 70%;
+    margin: 20px auto;
+}
+/* .box{
+    height: 100vh;
+    background-color: red;
+} */
+.main{
+
+    width: 100%;
+    /* background-color: antiquewhite; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+   
+    background:linear-gradient(to top, rgba(0, 0, 255, 0.288), white); 
+   
+    background-repeat: no-repeat;
+}
+.animation{
+    height: 20vh;
+    width: 100%;
+    background-image: url('./image/desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    position: relative;
+}
+.car-img{
+    width: 170px;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    z-index: 2;
+    /* transform: rotate(-5deg); */
+}
+.wheel {
+    position: absolute;
+    left: 110px;
+    top: 0px;
+}
+.back-wheel{
+    position: absolute;
+    left: 14px;
+    top: 37px;
+
+}
+.front-wheel{
+    position: absolute;
+    right: 64px;
+    top: 36px;
+}
+.wheel img{
+    width: 22px;
+   
+   
+}
+
+
+.text-img{
+    width: 18%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    z-index: 1;
+    rotate: 358deg;
+    display: none;
+    opacity: 0;
+    /* position: relative; */
+}
+.text-img2{
+    width: 18%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    z-index: 1;
+    rotate: 358deg;
+    display: none;
+    opacity: 0;
+    position: relative;
+}
+
+
